@@ -1,0 +1,2 @@
+-rw------- 1 user user 1.2M Sep  3  2002 user_manual.pdf
+-rw------- 1 user user 415K Jul 17  2000 ws-keyboard-layout.pdf

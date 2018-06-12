@@ -1,0 +1,37 @@
+Source: kmfl-keyboard-indic
+Section: x11
+Priority: optional
+Maintainer: Indic Dev <indic_dev@sil.org>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+
+Package: kmfl-keyboard-indic
+Architecture: all
+Depends: kmfl-keyboard-bengali,
+ kmfl-keyboard-devanagari,
+ kmfl-keyboard-gujarati,
+ kmfl-keyboard-punjabi,
+ kmfl-keyboard-kannada,
+ kmfl-keyboard-malayalam,
+ kmfl-keyboard-oriya,
+ kmfl-keyboard-tamil,
+ kmfl-keyboard-telugu,
+ ${misc:Depends}
+Recommends: ttf-indic-fonts
+Description: Metapackage for KMFL Indic keyboards
+ A metapackage to install all the KMFL Indic keyboards.
+ Fonts are automatically installed as dependencies of each keyboard package.
+ .
+ Documentation is in each package as well as the common package as well.
+
+Package: kmfl-keyboard-indic-common
+Architecture: all
+Depends: ibus-kmfl, ${misc:Depends}
+Recommends: ttf-indic-fonts-core
+Suggests: kmflcomp
+Description: Common package for all KMFL Indic keyboards
+ Includes documentation for several keyboards.
+ .
+ Also includes the old Winscript user manual.
+ .
+ Specifies dependencies common to all the KMFL Indic keyboards.

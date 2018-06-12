@@ -1,0 +1,12 @@
+kmfl-keyboard-indic (1.0.1) unstable; urgency=low
+
+  * Change the package relationship for ttf-indic-fonts.
+
+ -- Indic Dev <indic_dev@sil.org>  Tue, 27 Aug 2013 16:43:59 -0600
+
+kmfl-keyboard-indic (1.0) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Indic Dev <indic_dev@sil.org>  Tue, 26 Feb 2013 16:58:56 -0700
+
